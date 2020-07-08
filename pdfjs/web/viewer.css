@@ -13,9 +13,26 @@
  * limitations under the License.
  */
 
- #toolbarViewer {
-   background-color: red;
- }
+#toolbarViewer {
+  background-color: #1F4A8A;
+  background-image: linear-gradient(to right, #1A3562, #225AA9);
+}
+
+#sidebarToggle {
+  display: none;
+}
+
+#previous {
+  display: none;
+}
+
+#next {
+  display: none;
+}
+
+#secondaryToolbarToggle {
+  display: none;
+}
 
 .textLayer {
   position: absolute;
