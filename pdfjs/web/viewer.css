@@ -13,6 +13,10 @@
  * limitations under the License.
  */
 
+.hiddenMediumView {
+  display: block;
+}
+
 #toolbarViewer {
   background-color: #1F4A8A;
   background-image: linear-gradient(to right, #1A3562, #225AA9);
