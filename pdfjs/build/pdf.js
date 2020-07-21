@@ -542,13 +542,13 @@ function getVerbosityLevel() {
 
 function info(msg) {
   if (verbosity >= VerbosityLevel.INFOS) {
-    console.log('Info: ' + msg);
+    // console.log('Info: ' + msg);
   }
 }
 
 function warn(msg) {
   if (verbosity >= VerbosityLevel.WARNINGS) {
-    console.log('Warning: ' + msg);
+    // console.log('Warning: ' + msg);
   }
 }
 
@@ -13483,7 +13483,7 @@ function loadScript(src) {
 }
 
 function deprecated(details) {
-  console.log('Deprecated API usage: ' + details);
+  // console.log('Deprecated API usage: ' + details);
 }
 
 function releaseImageResources(img) {

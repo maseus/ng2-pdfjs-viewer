@@ -220,12 +220,11 @@ gulp.task('compile', function () {
     'clean:tmp',
     function (err) {
       if (err) {
-        console.log('ERROR:', err.message);
         deleteFolder(distFolder);
         deleteFolder(tmpFolder);
         deleteFolder(buildFolder);
       } else {
-        console.log('Compilation finished succesfully');
+        // console.log('Compilation finished succesfully');
       }
     });
 });

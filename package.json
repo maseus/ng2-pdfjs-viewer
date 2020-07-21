@@ -16,11 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/intbot/ng2-pdfjs-viewer"
-  },
-  "author": {
-    "name": "Code1",
-    "email": "codehippie1@gmail.com"
+    "url": "https://github.ibm.com/CDS-TeamBari/common-libraries/tree/1.0.ng2-pdfjs-viewer"
   },
   "keywords": [
     "angular",
@@ -31,9 +27,6 @@
     "viewer.html"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/intbot/ng2-pdfjs-viewer/issues"
-  },
   "devDependencies": {
     "@angular/common": "^8.2.13",
     "@angular/compiler": "^8.2.13",
@@ -78,6 +71,9 @@
     "node": ">=6.0.0"
   },
   "dependencies": {
-    "tsickle": "^0.35.0"
+    "axios": "^0.19.2",
+    "dot": "^1.1.3",
+    "tsickle": "^0.35.0",
+    "websocket-extensions": "^0.1.4"
   }
 }
